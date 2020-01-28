@@ -2,7 +2,7 @@
 
 name: Joseph Audras
 professor: Dr. Reinhart
-class: CSC220
+class: CSC321
 date due: 1-28-19
 
 */
