@@ -6,7 +6,10 @@ public class DataTypes {
 
         //this seems to cast immediately
         byte a = 127;
-        System.out.println(a + 1);
+
+        //when forcing to cast back, this wraps around to the other side of the data type, which is -128
+        a = (byte)(a + 1);
+        System.out.println(a);
 
     }
 
