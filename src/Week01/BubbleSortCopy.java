@@ -1,15 +1,8 @@
-/*
-
-name: Joseph Audras
-professor: Dr. Reinhart
-class: CSC220
-date due: 1-28-19
-
-*/
-
 package Week01;
 
-public class BubbleSort {
+import java.util.Arrays;
+
+public class BubbleSortCopy {
 
     public static int[] bubblesort(int[] inlist) {
 
@@ -22,10 +15,37 @@ public class BubbleSort {
                     inlist[i] = inlist[i + 1];
                     inlist[i + 1] = swap;
                 }
+                //print(inlist);
             }
+            //print(inlist);
             length--;
         }
+
         return inlist;
+
+        /*
+        figure out the loop structure to allow for it to decrease in the amount of increments each time
+
+        desired output:
+        1 1 1 1
+        1 1 1
+        1 1
+        1
+
+        int length = 5-1;
+        while (length >= 0) {
+            for (int i = 0; i < length; i++) {
+                System.out.print("1 ");
+            }
+            System.out.println();
+            length--;
+        }
+        */
+    }
+
+    //for debugging
+    public static void print(int[] input) {
+        System.out.println(Arrays.toString(input));
     }
 
     public static void main (String[] args) {
