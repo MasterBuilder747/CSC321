@@ -7,7 +7,7 @@ date due: 1-28-19
 
 */
 
-package Week01;
+package Homework.Week01;
 
 public class BubbleSort {
 

@@ -1,4 +1,4 @@
-package Week02;
+package Homework.Week02;
 
 public class DataTypes {
 

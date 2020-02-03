@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CSC321HW.iml" filepath="$PROJECT_DIR$/CSC321HW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSC321.iml" filepath="$PROJECT_DIR$/CSC321.iml" />
     </modules>
   </component>
 </project>
