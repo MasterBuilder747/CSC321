@@ -1,8 +1,14 @@
+/*
+Name: Joseph Audras
+Professor: Dr. Reinhart
+Date due: 3-5-20
+Class: CSC 321-1
+*/
+
 package Homework;
 
-public class HW8 {
+public class HW8PrimeAssembly {
 
-    //prime number implementation, with modulus
     public static boolean prime(int n) {
         if (n < 2) {
             return false;
@@ -12,7 +18,7 @@ public class HW8 {
             //of any numbers starting with 2 until right before n,
             //it is not a prime number
             //otherwise, it is
-            if (n % i == 0) { //somehow modulo needs to be implemented in assembly
+            if (n % i == 0) {
                 return false;
             }
         }
